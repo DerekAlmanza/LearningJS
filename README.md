@@ -15,3 +15,6 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Arrays.
 * Ciclos. 
 * Ejercicios de repaso sobre temas antes mencionados.
+* Objetos.
+* Funciones.
+* Clases.
