@@ -9,7 +9,9 @@ Ejecute `index.html` de la carpeta, ahí tendrá un menú sencillo para poder de
 Además, podrá ver el código fuente en los archivos JS correspondientes.
 
 *Contenido*:
-* Strings
-* Objeto Math
-* Condicionales
-* Arrays
+* Strings.
+* Objeto Math.
+* Condicionales.
+* Arrays.
+* Ciclos. 
+* Ejercicios de repaso sobre temas antes mencionados.
