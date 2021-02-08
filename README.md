@@ -13,8 +13,10 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Objeto Math.
 * Condicionales.
 * Arrays.
+* Spread Operator.
 * Ciclos. 
 * Ejercicios de repaso sobre temas antes mencionados.
 * Objetos.
 * Funciones.
 * Clases.
+* Práctica asociada a clases y funciones.
