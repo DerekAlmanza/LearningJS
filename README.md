@@ -20,3 +20,6 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Funciones.
 * Clases.
 * Práctica asociada a clases y funciones.
+* Manejo de DOM.
+* Objeto evento.
+* Manejo de eventos.
