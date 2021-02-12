@@ -21,5 +21,9 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Clases.
 * Práctica asociada a clases y funciones.
 * Manejo de DOM.
+* Recorrido del DOM.
 * Objeto evento.
 * Manejo de eventos.
+* Creación e inserción de elementos.
+* Objetos nativos.
+* Timers e intervalos.
