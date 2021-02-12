@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traversing</title>
+</head>
+<body>
+    <h1 class="title" id="title">Recorrer DOM (DOM Traversing)</h1>
+    <nav>
+        <ul id="padre">
+            <li>hijo 1</li>
+            <li>hijo 2</li>
+            <li>hijo 3</li>
+
+            <ul id="nietos">
+                <li>nieto 1</li>
+                <li>nieto 2</li>
+                <li>nieto 3</li>
+            </ul>
+        </ul>
+    </nav>
+    <p><input type="button" value="Volver a DOM" name="xd" 
+        onclick="location.href='./DOM_intro.html'"></p>
+
+    <script src="../../src/DOMTraversing.js"></script>
+</body>
+</html>
