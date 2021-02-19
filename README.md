@@ -27,3 +27,4 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Creación e inserción de elementos.
 * Objetos nativos.
 * Timers e intervalos.
+* Objeto XMLHTTPReqeuest.
