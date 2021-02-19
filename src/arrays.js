@@ -122,23 +122,23 @@ console.log(numeros2.reduce((a,b)=>b+a));
 
 const usuario = [
     {
-        nombre: 'usuario1',
+        nombre: 'Lucía',
         activo: true
     },
     {
-        nombre: 'usuario2',
+        nombre: 'Diego',
         activo: true
     },
     {
-        nombre: 'usuario3',
+        nombre: 'Valeria',
         activo: false
     },
     {
-        nombre: 'usuario4',
+        nombre: 'Iván',
         activo: false
     },
     {
-        nombre: 'usuario5',
+        nombre: 'Carlos',
         activo: true
     },
 ]
@@ -149,3 +149,7 @@ let usuariosActivos = usuario.reduce((contador,usuario) => {
                         },0);
 
 console.log(`Hay ${usuariosActivos} usuarios conectados`);
+
+/*Buscar elementos */
+
+console.log(usuario.find(usuario => usuario.nombre.length > 5));

@@ -28,3 +28,5 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Objetos nativos.
 * Timers e intervalos.
 * Objeto XMLHTTPReqeuest.
+* Callbacks.
+* Promises - Promesas.
