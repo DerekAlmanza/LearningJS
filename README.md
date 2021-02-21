@@ -6,6 +6,11 @@ Repositorio creado para aprendizaje personal y para quien le sirva sobre JavaScr
 ### Modo de uso:
 Ejecute `index.html` de la carpeta, ahí tendrá un menú sencillo para poder desplegar los temas.
 
+### Uso de Prepros:
+*Debe ser poseedor de Prepros para ejecutar algunos archivos que requieren de un servidor.* 
+Su instalación se encuentra en el siguiente [link](https://prepros.io/downloads).
+Las instruccions iniciales de uso están en el siguiente [link](https://prepros.io/help/getting-started).
+
 Además, podrá ver el código fuente en los archivos JS correspondientes.
 
 *Contenido*:
@@ -30,3 +35,4 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Objeto XMLHTTPReqeuest.
 * Callbacks.
 * Promises - Promesas.
+* Fetch
