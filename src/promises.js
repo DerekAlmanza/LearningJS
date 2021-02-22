@@ -28,7 +28,7 @@ let correos = [
     }
 ]
 
-const obtenerUsuario = (id) => {     // cb = callback
+const obtenerUsuario = (id) => {     
     const usuario = usuarios.find(usuario => usuario.id == id);
 
     const promise = new Promise((resolve,reject) => { // Nombres por convención

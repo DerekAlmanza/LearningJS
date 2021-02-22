@@ -2,7 +2,7 @@ const getData = document.getElementById('getData');
 
 getData.addEventListener('click', () => {
     let xhr;
-
+    console.time('Recibir info');
     if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); // Funciona a partir de v9.0
     else xhr = new ActiveXObject('Microsoft.XMLHTTP'); // Funciona para antes de v9.0
 
@@ -21,4 +21,5 @@ getData.addEventListener('click', () => {
     })
 
     xhr.send();
+    console.timeEnd('Recibir info');
 })

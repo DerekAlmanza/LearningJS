@@ -20,6 +20,7 @@ const pdfBoton = document.getElementById('pdfBoton');
 getData.addEventListener('click', () => {
 
     // Promesas encapsuladas.
+    console.time('Recibir info');
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(info => info.ok ? Promise.resolve(info) : Promise.reject(info)) // Para verificar que todo bien.
         .then(info => info.json())
@@ -35,6 +36,7 @@ getData.addEventListener('click', () => {
                 listaRecibir.appendChild(fragment);
             })
     .catch(error => console.log(`${error} No sirve el link`))
+    console.timeEnd('Recibir info');
 })
 
 /** Para hacer peticiones POST fetch admite un segundo parámetro: 
@@ -48,6 +50,7 @@ getData.addEventListener('click', () => {
 
 
 sendData.addEventListener('click', () => {
+    console.time('Enviar info');
     const persona = {
         nombre: 'Derek',
         edad: 34,
@@ -64,7 +67,7 @@ sendData.addEventListener('click', () => {
 
     console.log(persona);
     console.log(JSON.stringify(persona));
-
+    console.timeEnd('Enviar info');
 })
 
 /** Visualizar imagen */

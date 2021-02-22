@@ -13,6 +13,9 @@ Las instruccions iniciales de uso están en el siguiente [link](https://prepros.
 
 Además, podrá ver el código fuente en los archivos JS correspondientes.
 
+### Link para usar la librería Axios:
+https://unpkg.com/axios/dist/axios.min.js
+
 *Contenido*:
 * Strings.
 * Objeto Math.
@@ -35,4 +38,6 @@ Además, podrá ver el código fuente en los archivos JS correspondientes.
 * Objeto XMLHTTPReqeuest.
 * Callbacks.
 * Promises - Promesas.
-* Fetch
+* Fetch.
+* Async - Await.
+* Librería Axios.
