@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_forms.css">
+    <title>Forms</title>
+</head>
+<body>
+    <center>
+        <h1>Formulario.</h1>
+        <div>Ingrese sus datos.</div>
+    </center>
+    <br>
+
+    <form action="https://www.google.com/" id="formulario" class="form" method="post">
+        <div class="form_field">
+            <label for="nombre"> Nombre: </label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="form_field">
+            <label for="correo"> Correo: </label>
+            <input type="email" id="correo" name="correo">
+        </div>
+        <div id="genero" class="form_field">
+            <label for="hombre"> Hombre: </label>
+            <input type="radio" id="hombre" name="hombre">
+            <label for="mujer"> Mujer: </label>
+            <input type="radio" id="mujer" name="mujer">
+            <label for="otro"> Otro: </label>
+            <input type="radio" id="otro" name="otro">
+        </div>
+        <div class="form_field">
+            <label for="condiciones"> Acepto los términos y condiciones dados por la compañia: </label>
+            <input type="checkbox" id="condiciones" name="condiciones">
+        </div>
+        <button id="enviar" disabled> Enviar </button>
+    </form>
+    <center>
+        <p><i>* Al momento de enviar te llevará a un error proporcionado de Google debido a que no hay una
+            URL en donde postear estos datos
+        </i></p>
+    </center>
+
+    <p><input type="button" value="Home" name="xd" 
+        onclick="location.href='../index.html'"></p>
+
+    <script src="../src/forms.js"></script>
+</body>
+</html>
