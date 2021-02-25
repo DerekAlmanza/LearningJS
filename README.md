@@ -43,3 +43,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * Librería Axios.
 * Forms - Formularios.
 * Expresiones Regulares.
+* Web Storage.

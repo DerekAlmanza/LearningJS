@@ -1,0 +1,16 @@
+.form { 
+    text-align: center;
+    width: auto;
+}
+
+.form_field {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.info { 
+    text-align: center;
+    width: auto;
+}

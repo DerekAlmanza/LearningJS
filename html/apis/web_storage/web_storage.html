@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/style_web_storage.css">
+    <title>Web Storage</title>
+</head>
+<body>
+    <center>
+        <h1>Web Storage.</h1>
+    </center>
+    <br>
+
+    <form id="formulario" class="form">
+        <div class="form_field">
+            <label for="key"> Key: </label>
+            <input type="text" id="key" name="key">
+        </div>
+        <div class="form_field">
+            <label for="value"> Value: </label>
+            <input type="text" id="value" name="value">
+        </div>
+        <button id="guardar"> Guardar </button>
+    </form>
+    
+    <br>
+
+    <div id="info" class="info">
+        <select name="keys" id="keys">
+            <option value="default">Seleccionar Key</option>
+        </select>
+        <p id="infoValue"></p>
+    </div>
+
+
+    <p><input type="button" value="Home" name="xd" 
+        onclick="location.href='../../../index.html'"></p>
+
+    <script src="../../../src/webStorage.js"></script>
+</body>
+</html>
