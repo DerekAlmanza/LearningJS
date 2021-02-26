@@ -44,3 +44,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * Forms - Formularios.
 * Expresiones Regulares.
 * Web Storage.
+* Acciones Drag & Drop.
