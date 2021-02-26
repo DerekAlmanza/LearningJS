@@ -18,3 +18,45 @@ body {
     width: auto;
     text-align: center;
 }
+
+.contenedor {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    margin: 0 0 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background-color: #7e57c2;
+  }
+
+.tarea {
+    background-color: #9bf525;
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+    cursor: move;
+}
+
+.tareas {
+    width: 30%;
+    text-align: center;
+    background: #7e57c2;
+    border: 1px solid black;
+    min-height: 130px;
+  }
+
+.tareas:first-child{
+    border-top: 1px solid #000;
+}
+
+.tareas:last-child{
+    border-bottom: none;
+}
+
+.activar {
+    background-color: antiquewhite;
+    color: #000;
+}
