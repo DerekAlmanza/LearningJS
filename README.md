@@ -46,3 +46,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * Web Storage.
 * Acciones Drag & Drop.
 * API file.
+* API file. Barra de progreso. 

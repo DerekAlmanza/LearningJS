@@ -1,3 +1,7 @@
+:root {
+     --barra-width: 0; /* Creamos variable */
+}
+
 body {
     background-color: rgb(99, 8, 94);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -6,4 +10,37 @@ body {
 
 .imagen {
     max-width: 30%;
+}
+
+.barraProgreso {
+    width: 30%;
+    background-color: rgb(190, 188, 188);
+    height: 15px;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.barraProgreso1Elem {
+    width: 30%;
+    background-color: rgb(190, 188, 188);
+    height: 15px;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.barraProgreso1Elem::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #22ff;
+    width: var(--barra-width);
+    height: 15px;
+}
+
+.progreso {
+    display: block;
+    background-color: #22ff;
+    height: 15px;
+    width: 0%;
 }
