@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style_drag_drop_+_api_file.css">
+    <title>Drag & Drop + API File.</title>
+</head>
+<body>
+    <h1 id="title" class="title">Arrastrar archivos.</h1>
+
+    <form class="form" method="post" enctype="multipart/form-data">
+        <div>
+            <input class="hide" type="file" name="archivo" id="archivo">
+            <div id="zonaDrop" class="zonaDrop"> 
+                <i class="fas fa-file-upload"></i>
+                <p class="zonaDrop__texto">
+                    <h2>
+                        Arrastra Aquí
+                    </h2> 
+                </p>
+            </div>
+            <input type="submit" id="subir" class="subir__boton" value="Subir">
+        </div>
+    </form>
+    <img class="imagen" id="imagen">
+    
+
+    <p><input type="button" value="Home" name="xd" 
+        onclick="location.href='../../index.html'"></p>
+
+    <script src="../../src/dragDrop+apiFile.js"></script>
+</body>
+</html>
