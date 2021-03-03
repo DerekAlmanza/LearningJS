@@ -48,3 +48,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * API file.
 * API file. Barra de progreso. 
 * Drag & Drop + API File.
+* API Indexed DB. Operaciones CRUD.

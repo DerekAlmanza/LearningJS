@@ -1,0 +1,29 @@
+body {
+    background: rgb(56, 2, 107);
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    color: #f8f5f5;
+}
+
+.form {
+    text-align: center;
+    width: 100%;
+}
+
+.tarea {
+    color: #f8f5f5;
+    font-style: italic;
+}
+
+.añadirBoton {
+    background: orangered;
+    height: 30px;
+    border-color: #414141;
+    padding: 0.2rem 0.8rem;
+    border-radius: 15px;
+    color: #f8f5f5;
+    cursor: pointer;
+}
