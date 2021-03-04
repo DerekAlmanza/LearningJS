@@ -11,11 +11,18 @@ body {
 .form {
     text-align: center;
     width: 100%;
+    margin-top: 5rem;
 }
 
 .tarea {
     color: #f8f5f5;
     font-style: italic;
+}
+
+.infoTarea {
+    color: #f8f5f5;
+    font-style: italic;
+    text-align: center;
 }
 
 .añadirBoton {
