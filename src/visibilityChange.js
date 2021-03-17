@@ -1,3 +1,5 @@
+// link de video debido a que al subirlo a git es muy pesado
+// https://www.pexels.com/es-es/video/una-costa-rocosa-1550080/
 const video = document.getElementById('video');
 
 /* Forma larga */
