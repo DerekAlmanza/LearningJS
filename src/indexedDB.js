@@ -14,6 +14,9 @@ Métodos: * open(): Crear la base de datos.
 const indexedDB = window.indexedDB;
 const form = document.getElementById('form');
 const tareasLista = document.getElementById('tareasLista');
+const añadirBoton = document.getElementById('añadirBoton');
+const actualizarBoton = document.getElementById('actualizarBoton');
+const eliminarBoton = document.getElementById('eliminarBoton');
 
 if (indexedDB && form) {
     let baseDatos;
@@ -54,6 +57,7 @@ if (indexedDB && form) {
         const fragmento = document.createDocumentFragment();
 
         informacion.onsuccess = (evento) => {
+            
             const cursor = evento.target.result;
             if(cursor) { // Porque si termina de leer, entonces ya no habrá cursor y se detendrá.
                 const infoTarea = document.createElement('li');
@@ -72,6 +76,17 @@ if (indexedDB && form) {
         }
     }
 
+    // Actualizar datos
+    const actualizaInfo = (informacionTarea) => {
+        const transaccion = baseDatos.transaction(['tareas'], 'readwrite');
+        const objectStore = transaccion.objectStore('tareas');
+        const resultado = objectStore.get(informacionTarea);
+
+        resultado.onsuccess = () => {
+            console.log(resultado);
+        }
+    }
+
     form.addEventListener('submit', (evento) => {
         evento.preventDefault();
         console.log(evento);
@@ -80,6 +95,8 @@ if (indexedDB && form) {
             prioridad: evento.target.prioridad.value
         }
         console.log(informacionTarea);
-        añadirInfo(informacionTarea);
+
+        //añadirInfo(informacionTarea);
+        actualizaInfo('aprender react');
     })
 }

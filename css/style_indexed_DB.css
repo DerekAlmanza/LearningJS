@@ -25,7 +25,14 @@ body {
     text-align: center;
 }
 
-.añadirBoton {
+.botonDistribucion {
+    display: grid;
+    grid-template-columns: (4,1fr);
+}
+
+.botonEstilo {
+    margin-top: 20px;
+    margin-bottom: 20px;
     background: orangered;
     height: 30px;
     border-color: #414141;
