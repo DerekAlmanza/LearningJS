@@ -50,3 +50,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * Drag & Drop + API File.
 * API Indexed DB. Operaciones CRUD.
 * API Visibility Change.
+* API Online Offline.

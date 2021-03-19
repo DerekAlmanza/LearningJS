@@ -1,0 +1,40 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+.title {
+    margin-top: 60px;
+}
+
+.alerta {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    transform: translateY(-100%);
+}
+
+.alerta--online {
+    background-color: rgba(0, 255, 0, 0.4);
+    animation: revelar 4s ease;
+}
+
+.alerta--offline {
+    background-color: rgba(255, 0, 0, 0.9);
+    animation: revelar 4s ease;
+}
+
+@keyframes revelar {
+    0% {
+        transform: translateY(-100%);
+    }
+    15%,
+    85% {
+        transform: translateY(0);
+    }
+}
