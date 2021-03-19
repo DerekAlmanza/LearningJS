@@ -9,16 +9,18 @@ Métodos: * geolocation.getCurrentPosition(): Usado para obtener ubicación actu
 */
 
 const geolocalizacionBoton = document.getElementById('geolocalizacionBoton');
+const coords = document.getElementById('coords');
 
 geolocalizacionBoton.addEventListener('click', () => {
     const geolocalizacion = navigator.geolocation;
 
     geolocalizacion.getCurrentPosition(obtenerPos, error, opciones);
-    
+
 })
 
 const obtenerPos = (posicion) => {
     console.log(posicion);
+    const coordenadas = document.createElement('p');
 }
 
 const error = (error) => {
