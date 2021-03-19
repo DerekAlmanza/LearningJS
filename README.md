@@ -51,3 +51,4 @@ https://unpkg.com/axios/dist/axios.min.js
 * API Indexed DB. Operaciones CRUD.
 * API Visibility Change.
 * API Online Offline.
+* API Intersection Observer.
