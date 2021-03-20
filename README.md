@@ -54,4 +54,5 @@ https://unpkg.com/axios/dist/axios.min.js
 * API Intersection Observer.
 * API Match Media.
 * Destructuring.
-* Debugging
+* Debugging.
+* Transpilacion de código con babel.
