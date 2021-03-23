@@ -6,7 +6,7 @@ Repositorio creado para aprendizaje personal y para quien le sirva sobre JavaScr
 ### Modo de uso:
 Clone el repositorio y ejecute `index.html` de la carpeta, ahí tendrá un menú sencillo para poder desplegar los temas.
 
-También puede ver la oágina desde aquí: https://derekalmanza.github.io/LearningJS/
+También puede ver la página desde aquí: https://derekalmanza.github.io/LearningJS/
 
 ### Uso de Prepros:
 *Debe ser poseedor de Prepros para ejecutar algunos archivos que requieren de un servidor.* 
