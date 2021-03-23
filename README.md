@@ -4,7 +4,9 @@
 Repositorio creado para aprendizaje personal y para quien le sirva sobre JavaScript.
 
 ### Modo de uso:
-Ejecute `index.html` de la carpeta, ahí tendrá un menú sencillo para poder desplegar los temas.
+Clone el repositorio y ejecute `index.html` de la carpeta, ahí tendrá un menú sencillo para poder desplegar los temas.
+
+También puede ver la oágina desde aquí: https://derekalmanza.github.io/LearningJS/
 
 ### Uso de Prepros:
 *Debe ser poseedor de Prepros para ejecutar algunos archivos que requieren de un servidor.* 
